@@ -1,0 +1,5 @@
+user_prompt: |-
+  Based on the given game state, determine the next action.
+  Follow the specified format and include a brief explanation for your choice.
+
+combat_prompt: |-

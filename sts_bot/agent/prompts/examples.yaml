@@ -1,0 +1,91 @@
+combat_examples:
+  <example>
+  play card 2 on monster 0
+  <output format>
+  {play 3 0}
+  </output format>
+  </example>
+
+  <example>
+  use potion 1 on monster 1
+  <output format>
+  {potion use 1 1}
+  </output format>
+  </example>
+
+  <example>
+  we want to block with card 1
+  <output format>
+  {play card 1}
+  </output format>
+  </example>
+
+  <example>
+  end turn
+  <output format>
+  {end}
+  </output format>
+  </example>
+
+
+basic_examples:
+  <example>
+  choose the first option
+  <output format>
+  {choose 0}
+  </output format>
+  </example>
+
+  <example>
+  chose the second option
+  <output format>
+  {choose 1}
+  </output format>
+  </example>
+
+
+shop_examples:
+  <example>
+  choose 0
+  <output format>
+  {choose 0}
+  </output format>
+  </example>
+
+  <example>
+  not enough money to buy anything
+  <output format>
+  {leave}
+  <output format>
+  <example>
+
+  <example>
+  want to take potion but all potion spots are full
+  so we want to discard a potion
+  <output format>
+  {potion discard 0}
+  </output format>
+  </example>
+
+card_reward_examples:
+  <example>
+  take money
+  <output format>
+  {choose 0}
+  </output format>
+  </example>
+
+  <example>
+  want to take potion but all potion spots are full
+  so we want to discard a potion
+  <output format>
+  {potion discard 0}
+  </output format>
+  </example>
+
+  <example>
+  we want to proceed
+  <output format>
+  {proceed}
+  </output format>
+  </example>

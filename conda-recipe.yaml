@@ -1,0 +1,9 @@
+name: sts-bot
+dependencies:
+  - python = 3.11
+  - pip>=24.0
+  - pip:
+    - numpy
+    - ollama
+    - scipy
+    
